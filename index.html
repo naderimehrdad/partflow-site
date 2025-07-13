@@ -76,6 +76,13 @@
             margin-top: 40px;
         }
     </style>
+        <script>
+        // تابع برای نمایش پیام هنگام کلیک روی دکمه
+        function showContactMessage(event) {
+            event.preventDefault(); // جلوگیری از رفتن به بخش تماس
+            alert("برای ارتباط لطفاً با ایمیل info@partflow.ir مکاتبه فرمایید.");
+        }
+    </script>
 </head>
 <body>
 
@@ -87,7 +94,7 @@
 <section class="hero">
     <h2>مدیریت یکپارچه قطعات یدکی خودرو</h2>
     <p>سیستم ERP تخصصی برای تأمین، انبار و فروش قطعات یدکی در کسب‌وکارهای کوچک تا بزرگ</p>
-    <a href="#contact" class="cta-button">درخواست دمو</a>
+    <a href="#contact" class="cta-button" onclick="showContactMessage(event)">درخواست دمو</a>
 </section>
 
 <section class="features">
