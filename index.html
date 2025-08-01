@@ -1,132 +1,61 @@
-
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <title>PartFlow ERP | مدیریت هوشمند قطعات یدکی</title>
-    <style>
-        body {
-            font-family: Tahoma, sans-serif;
-            background-color: #f8f8f8;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-        header {
-            background-color: #ffffff;
-            display: flex;
-            align-items: center;
-            padding: 20px 40px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-        }
-        header img {
-            height: 60px;
-            margin-left: 20px;
-        }
-        header h1 {
-            font-size: 24px;
-            color: #0077cc;
-        }
-        .hero {
-            background-color: #eaf6ff;
-            padding: 60px 20px;
-            text-align: center;
-        }
-        .hero h2 {
-            font-size: 36px;
-            margin-bottom: 10px;
-        }
-        .hero p {
-            font-size: 18px;
-            margin-bottom: 30px;
-        }
-        .cta-button {
-            padding: 15px 30px;
-            background-color: #0077cc;
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 6px;
-        }
-        .features {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            margin: 40px auto;
-            max-width: 1000px;
-            gap: 30px;
-        }
-        .feature-box {
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-            padding: 20px;
-            flex: 1 1 280px;
-            max-width: 300px;
-        }
-        .feature-box h3 {
-            color: #0077cc;
-            margin-bottom: 10px;
-        }
-        .footer {
-            background-color: #0077cc;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 40px;
-        }
-    </style>
-        <script>
-        // تابع برای نمایش پیام هنگام کلیک روی دکمه
-        function showContactMessage(event) {
-            event.preventDefault(); // جلوگیری از رفتن به بخش تماس
-            alert("برای ارتباط لطفاً با ایمیل info@partflow.ir مکاتبه فرمایید.");
-        }
-    </script>
+  <meta charset="UTF-8">
+  <title>تراز - تحلیل، تصمیم، سود</title>
+  <style>
+    body {
+      font-family: 'Vazirmatn', sans-serif;
+      background-color: #F4F4F4;
+      margin: 0;
+      padding: 0;
+      color: #1B1B1B;
+    }
+    header {
+      background-color: #0D1B2A;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+    }
+    .highlight {
+      color: #D72638;
+    }
+    section {
+      padding: 2rem;
+      max-width: 700px;
+      margin: auto;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
 </head>
 <body>
+  <header>
+    <h1>تراز</h1>
+    <p>تحلیل کن، تصمیم بگیر، <span class="highlight">سود کن.</span></p>
+  </header>
 
-<header>
-    <img src="logo.png" alt="PartFlow Logo">
-    <h1>PartFlow ERP</h1>
-</header>
+  <section>
+    <h2>چرا تراز؟</h2>
+    <p>تراز، نرم‌افزار هوشمند مدیریت فروش قطعات یدکی خودروست. با تراز، از تصمیم‌های اشتباه دور می‌مونی، سودده‌ترین مسیر فروش رو پیدا می‌کنی و همیشه یک قدم جلوتر از بازار حرکت می‌کنی.</p>
 
-<section class="hero">
-    <h2>مدیریت یکپارچه قطعات یدکی خودرو</h2>
-    <p>سیستم ERP تخصصی برای تأمین، انبار و فروش قطعات یدکی در کسب‌وکارهای کوچک تا بزرگ</p>
-    <a href="#contact" class="cta-button" onclick="showContactMessage(event)">درخواست دمو</a>
-</section>
+    <h2>ویژگی‌های کلیدی</h2>
+    <ul>
+      <li>موتور تحلیل سود براساس کالا، مشتری و فصل</li>
+      <li>هشدار لحظه‌ای هنگام تصمیم‌های اشتباه</li>
+      <li>داشبورد آینده‌نگر و هوشمند</li>
+    </ul>
+  </section>
 
-<section class="features">
-    <div class="feature-box">
-        <h3>مدیریت انبار</h3>
-        <p>چند انباره، هشدار حداقل موجودی، موجودی سریع و دقیق</p>
-    </div>
-    <div class="feature-box">
-        <h3>فروش و فاکتورینگ</h3>
-        <p>ثبت فروش آنلاین و سنتی، پورسانت ویزیتورها، تحلیل سود</p>
-    </div>
-    <div class="feature-box">
-        <h3>خرید و تأمین</h3>
-        <p>مدیریت سفارشات خرید، مقایسه تأمین‌کننده، پیش‌فاکتور</p>
-    </div>
-    <div class="feature-box">
-        <h3>مدیریت مالی</h3>
-        <p>ثبت هزینه‌ها، دریافتی و پرداختی‌ها، گزارش سود و زیان</p>
-    </div>
-    <div class="feature-box">
-        <h3>CRM و ارتباط با مشتری</h3>
-        <p>ثبت تماس، طبقه‌بندی مشتری، تحلیل وفاداری</p>
-    </div>
-    <div class="feature-box">
-        <h3>گزارش‌گیری</h3>
-        <p>داشبورد مدیریتی، خروجی اکسل، تحلیل‌های هوشمند</p>
-    </div>
-</section>
-
-<footer class="footer" id="contact">
-    تماس با ما: info@partflow.ir | 
-</footer>
-
+  <footer>
+    © 2025 PartFlow – تمامی حقوق محفوظ است.
+  </footer>
 </body>
 </html>
